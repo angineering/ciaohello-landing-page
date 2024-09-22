@@ -16,20 +16,20 @@ export default class Main extends Component {
               alt="Ciao Hello logo"
             />
           </div>
-          <div>
+          <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '100%' }}>
           {/* <h1>Ciao Hello</h1> */}
           <h1 
           style={{ 
             fontSize: '2.5rem', 
             fontWeight: '500', 
             fontStyle: 'italic', 
-            fontFamily: 'Libre Baskerville' 
+            fontFamily: 'Libre Baskerville',
+            margin: 0
           }}
           >
             A new way to learn a language,<br/>
             coming soon...
           </h1>
-          <br></br>
           {/* <a href="https://slack.com/oauth/v2/authorize?client_id=1052632707317.1057131634261&scope=chat:write,files:write,users:read&user_scope=im:read"><img alt="Add to Slack" height="45" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x"/></a> */}
           </div>
           
