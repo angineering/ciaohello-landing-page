@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Screenshot from './static/images/chatty-screenshot.png'
+import Screenshot from './static/images/screenshot.png'
 import Testimonial from './components/Testimonial'
 import DarrenImg from './static/images/Darren.png'
 import GinaImg from './static/images/Gina.png'
