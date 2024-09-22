@@ -24,11 +24,12 @@ function App() {
             <img
               alt="logo"
               src={Logo}
-              width="30"
-              height="30"
+              width="120"
+              height="40"
               className="d-inline-block align-top"
+              style={{ marginLeft: '10px' }}
             />{' '}
-            Chatty
+            {/* Chatty */}
           </Navbar.Brand>
         </Navbar>
         {/* A <Switch> looks through its children <Route>s and
