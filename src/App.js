@@ -54,7 +54,7 @@ function App() {
             <Link to='contact'>Contact</Link>
             <Link to='privacy'>Privacy Policy</Link>
             <Link to='terms'>Terms & Conditions</Link>
-            <p>&copy; Angela Branaes 2020</p>
+            <p>&copy; ABRL Limited 2024</p>
         </footer>
       </div>
     </HashRouter>
