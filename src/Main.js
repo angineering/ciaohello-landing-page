@@ -9,7 +9,7 @@ export default class Main extends Component {
         background: 'linear-gradient(to bottom, #FFA500, #D56AFA)'
       }}>
         <header className="App-header">
-          <div style={{ width: '40%', height: '50%' }}>
+          <div id="splash-logo-div">
             <img  
               src={ Screenshot } 
               style={{ maxWidth: '100%', height: 'auto' }}

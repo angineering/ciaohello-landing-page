@@ -68,6 +68,10 @@ main a {
   .App-header h2 {
     font-size: 1rem;
   }
+  #splash-logo-div {
+    max-width: 75%;
+    max-height: auto;
+  }
 }
 
 @media (min-width: 1200px ) {
@@ -87,6 +91,10 @@ main a {
   }
   .App-header div {
     padding: 30px;
+  }
+  #splash-logo-div {
+    max-width: 75%;
+    max-height: auto;
   }
 }
 
@@ -134,10 +142,6 @@ main {
   text-align: justify;
 }
 
-@media (min-width: 800px) {
-  
-}
-
 @media (min-width: 1200px ) {
   footer {
     padding: 40px;
@@ -152,6 +156,11 @@ main {
     padding: 160px 160px;
     text-align: justify;
     max-width: 1000px;
+  }
+
+  #splash-logo-div {
+    max-width: 75%;
+    max-height: auto;
   }
 
 }
@@ -234,7 +243,10 @@ section {
   height: 50px;
 }
 
-
+#splash-logo-div {
+  max-width: 40%; 
+  max-height: 50%;
+}
 
 @media (min-width: 800px ) {
   section {
@@ -268,6 +280,10 @@ section {
   section {
     padding: 60px 30px 60px;
   }
+  #splash-logo-div {
+    max-width: 75%;
+    max-height: auto;
+  }
   .testimonial {
     margin: 5px;
     font-size: 0.75rem;
@@ -288,10 +304,21 @@ section {
   section {
     padding: 60px 60px 60px;
   }
+  #splash-logo-div {
+    max-width: 75%;
+    max-height: auto;
+  }
   .testimonial {
     margin: 5px;
     font-size: 0.9rem;
     width: 400px;
     height: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  #splash-logo-div {
+    max-width: 75%;
+    max-height: auto;
   }
 }
