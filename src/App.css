@@ -157,7 +157,6 @@ main {
 }
 
 hr {
-  color: blue;
   margin: 40px;
 }
 
@@ -200,10 +199,6 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#main {
-  background-color: blue;
 }
 
 section {
