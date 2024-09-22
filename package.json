@@ -1,7 +1,7 @@
 {
   "name": "ciaohello-landing-page",
   "version": "0.1.0",
-  "homepage": "ciaohello.ai",
+  "homepage": "https://angineering.gthub.io/ciaohello-landing-page",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
