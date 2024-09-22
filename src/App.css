@@ -2,8 +2,12 @@
   text-align: left;
 }
 
+main a {
+  color: #191c20 !important;
+}
+
 .App-navbar {
-  background-color: #FFA500;
+  background-color: #ed2354;
   font-weight: 700;
 }
 
@@ -19,42 +23,73 @@
 }
 
 .App-header {
-  background-color: #FFA500;
-  min-height: 100vh;
+  background-color: #ed2354;
+  min-height: 95vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 20px 100px;
+  padding: 80px 20px;
 }
 
 .App-header h1 {
   font-weight:700;
-  font-size: 3rem;
+  font-size: 2.5rem;
+}
+
+.App-header h2 {
+  font-size: 1.25rem;
 }
 
 .App-header div {
-  padding: 30px;
+  padding: 15px;
   text-align: left;
 }
 
-.App-header img {
-  height: 200px;
+.App-header .screenshot {
+  max-width: 85vw;
 }
 
-@media (min-width: 800px ) {
+@media (min-width: 800px) {
   .App-header {
     flex-direction: row;
+    padding: 20px 60px;
   }
-  .App-header img {
-    height: 400px;
+  .App-header .screenshot {
+    height: 330px;
   }
 }
 
-.App-link {
-  color: #61dafb;
+@media (min-width: 1024px) {
+  .App-header h1 {
+    font-weight:800;
+    font-size: 2.5rem;
+  }
+  .App-header h2 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px ) {
+  .App-header {
+    flex-direction: row;
+    padding: 20px 60px;
+  }
+  .App-header h1 {
+    font-weight:800;
+    font-size: 3rem;
+  }
+  .App-header h2 {
+    font-size: 1.5rem;
+  }
+  .App-header .screenshot {
+    height: 400px;
+  }
+  .App-header div {
+    padding: 30px;
+  }
 }
 
 @keyframes App-logo-spin {
@@ -68,14 +103,28 @@
 
 footer {
   height: 100px;
-  padding: 40px;
+  padding: 20px;
   display: flex !important;
   flex-direction: row;
   justify-content: space-around;
+  font-size: 12px;
+  text-align: center;
+  background-color: #ed2354;
+  color: white !important;
+  font-size: 12px;
+}
+
+footer > * {
+  padding: 10px;
 }
 
 footer a {
-  color: black;
+  color: white !important;
+}
+
+footer a:hover {
+  color: white !important;
+  text-decoration: none;
 }
 
 main {
@@ -83,5 +132,173 @@ main {
 }
 
 .page {
-  padding: 80px 80px;
+  padding: 120px 60px 120px 40px;
+  text-align: justify;
+}
+
+@media (min-width: 800px) {
+  
+}
+
+@media (min-width: 1200px ) {
+  footer {
+    padding: 40px;
+    font-size: 14px;
+    text-align: left;
+  }
+  footer > * {
+    padding: 0px;
+  }
+
+  .page {
+    padding: 160px 160px;
+    text-align: justify;
+    max-width: 1000px;
+  }
+
+}
+
+hr {
+  color: #ed2354;
+  margin: 40px;
+}
+
+.testimonial {
+  padding: 30px 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 330px;
+  height: 300px;
+  display: inline-block;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.testimonial .quote {
+  font-weight: bold;
+  font-style: italic;
+  color: #191c20;
+}
+
+.testimonial .by {
+  color: grey;
+  display: flex;
+  align-items: center;
+}
+
+.testimonial img {
+  height: 90px;
+  width: 90px;
+  min-width: 90px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  background-color: #ed2354;
+}
+
+section {
+  padding: 30px;
+}
+
+.last-modified {
+  font-size: 12px;
+}
+
+.blurb {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.logos {
+  background-color: white;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#antler-logo {
+  height: 30px
+}
+
+#ir-logo {
+  height: 60px
+}
+
+#rc-logo {
+  height: 50px;
+}
+
+
+
+@media (min-width: 800px ) {
+  section {
+    padding: 60px 100px 60px;
+  }
+  .boxes {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .logos {
+    flex-direction: row;
+  }
+  .logos img {
+    max-width: 150px;
+  }
+  .logos * {
+    max-width: 200px;
+  }
+  #antler-logo {
+    height: 40px
+  }
+  #ir-logo {
+    height: 100px
+  }
+  #rc-logo {
+    height: 90px;
+  }  
+}
+
+@media (min-width: 800px) and (max-width: 1023px)  {
+  section {
+    padding: 60px 30px 60px;
+  }
+  .testimonial {
+    margin: 5px;
+    font-size: 0.75rem;
+    width: 350px;
+    height: 270px;
+  }
+
+  .testimonial img {
+    height:70px;
+    width: 70px;
+    min-width: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px)  {
+  section {
+    padding: 60px 60px 60px;
+  }
+  .testimonial {
+    margin: 5px;
+    font-size: 0.9rem;
+    width: 400px;
+    height: 300px;
+  }
 }

@@ -6,7 +6,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  HashRouter
 } from "react-router-dom";
 
 import Main from './Main'
@@ -16,7 +17,7 @@ import Terms from './Terms'
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename='/'>
       <div className="App">
         <Navbar variant="dark" expand="lg" className="App-navbar" fixed="top">
           <Navbar.Brand href="/">
@@ -27,7 +28,7 @@ function App() {
               height="30"
               className="d-inline-block align-top"
             />{' '}
-            APP NAME
+            Chatty
           </Navbar.Brand>
         </Navbar>
         {/* A <Switch> looks through its children <Route>s and
@@ -52,10 +53,10 @@ function App() {
             <Link to='contact'>Contact</Link>
             <Link to='privacy'>Privacy Policy</Link>
             <Link to='terms'>Terms & Conditions</Link>
-            <p>&copy; COMPANY 2020</p>
+            <p>&copy; Angela Branaes 2020</p>
         </footer>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
