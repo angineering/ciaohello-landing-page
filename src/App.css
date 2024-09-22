@@ -2,6 +2,10 @@
   text-align: left;
 }
 
+body {
+  background: linear-gradient(to bottom, #FFA500, #D56AFA);
+}
+
 main a {
   color: #191c20 !important;
 }
