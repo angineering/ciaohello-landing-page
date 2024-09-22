@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/ciaohello.ai/static/css/main.128b7b05.css",
-    "main.js": "/ciaohello.ai/static/js/main.d28cf4d4.js",
-    "static/media/screenshot.png": "/ciaohello.ai/static/media/screenshot.6758b322c1e8be2e11a8.png",
-    "static/media/logo.png": "/ciaohello.ai/static/media/logo.5f45bd74df6e914bc62c.png",
+    "main.css": "/ciaohello.ai/static/css/main.f4e1c856.css",
+    "main.js": "/ciaohello.ai/static/js/main.418d0e8f.js",
+    "static/media/logo.png": "/ciaohello.ai/static/media/logo.6f496082cbcc5742ff76.png",
     "index.html": "/ciaohello.ai/index.html",
-    "main.128b7b05.css.map": "/ciaohello.ai/static/css/main.128b7b05.css.map",
-    "main.d28cf4d4.js.map": "/ciaohello.ai/static/js/main.d28cf4d4.js.map"
+    "main.f4e1c856.css.map": "/ciaohello.ai/static/css/main.f4e1c856.css.map",
+    "main.418d0e8f.js.map": "/ciaohello.ai/static/js/main.418d0e8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.128b7b05.css",
-    "static/js/main.d28cf4d4.js"
+    "static/css/main.f4e1c856.css",
+    "static/js/main.418d0e8f.js"
   ]
 }
