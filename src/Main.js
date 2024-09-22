@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
 import Screenshot from './static/images/screenshot.png'
-import AntlerLogo from './static/images/AntlerLogo.png'
-import InnovatorsRoom from './static/images/InnovatorsRoom.png'
-import RC from './static/images/RCLogo.png'
 
 export default class Main extends Component {
   render() {
@@ -23,9 +20,6 @@ export default class Main extends Component {
           </div>
         </header>
         <section className="logos">
-          <img src={ AntlerLogo } alt="Antler logo" id='antler-logo'/>
-          <img src={ InnovatorsRoom } alt="InnovatorsRoom logo" id='ir-logo' />
-          <img src={ RC } alt="Retail Collective logo" id='rc-logo' />
         </section>
         <section className="boxes">
           
