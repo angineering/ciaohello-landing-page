@@ -5,8 +5,11 @@ export default class Terms extends Component {
     return (
       <div className="page">
         <h1>Terms & Conditions</h1>
-        <p>Last updated: DATE</p>
+        <p>Last updated: 2024-09-22</p>
         <p>
+          Coming soon...
+        </p>
+        {/* <p>
           By installing the THIS app you agree to the following terms of service, as well as the privacy policy.
         </p>
         <p>
@@ -16,7 +19,7 @@ export default class Terms extends Component {
         </p>
         <p>
           You will not impersonate THIS APP or make any clones or copies of it or its logo or branding.
-        </p>
+        </p> */}
       </div>
     )
   }

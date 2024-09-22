@@ -5,8 +5,11 @@ export default class Privacy extends Component {
     return (
       <div className="page">
         <h1>Privacy Policy</h1>
-        <p>Last modified: DATE</p>
+        <p>Last modified: 2024-09-22</p>
         <p>
+          Coming soon...
+        </p>
+        {/* <p>
           Thank you for using THIS APP. This policy explains how we handle your personal data and privacy.
         </p>
         <h2>Information collection and use</h2>
@@ -32,7 +35,7 @@ export default class Privacy extends Component {
         <h2>Contact Us</h2>
         <p>
           If you have any questions about this Privacy Policy, please contact us at <a href="email">email</a>
-        </p>
+        </p> */}
       </div>
     )
   }
