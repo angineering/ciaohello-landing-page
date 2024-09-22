@@ -28,11 +28,9 @@ export default class Main extends Component {
           }}
           >
             A new way to learn a language,<br/>
-            coming soon...
+            powered by AI. Coming soon...
           </h1>
-          {/* <a href="https://slack.com/oauth/v2/authorize?client_id=1052632707317.1057131634261&scope=chat:write,files:write,users:read&user_scope=im:read"><img alt="Add to Slack" height="45" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x"/></a> */}
-          </div>
-          
+          </div>          
         </header>
       </div>
     )

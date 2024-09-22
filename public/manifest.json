@@ -1,6 +1,6 @@
 {
-  "short_name": "Template app",
-  "name": "Sample template app",
+  "short_name": "Ciao Hello",
+  "name": "Ciao Hello, a new way to learn a language, powered by AI",
   "icons": [
     {
       "src": "favicon.ico",
