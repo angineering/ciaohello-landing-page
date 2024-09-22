@@ -32,24 +32,7 @@ export default class Main extends Component {
           <img src={ RC } alt="Retail Collective logo" id='rc-logo' />
         </section>
         <section className="boxes">
-          <Testimonial
-            name="Darren"
-            photo={DarrenImg}
-            job="Program Manager @ Antler London"
-            quote="Chatty helps you track who you haven’t engaged with after a few days, weeks or ever! Great for distributed or remote teams."
-          />
-          <Testimonial
-            name="Maryam"
-            photo={MaryamImg}
-            job="Entrepreneur @ Antler"
-            quote="Because it pushed me to contact people I hadn't contacted before on the cohort, I managed to find a co-founder; one of the best applications I've used!"
-          />
-          <Testimonial
-            name="Gina"
-            photo={GinaImg}
-            job="Entrepreneur @ Antler"
-            quote="Very effective for staying on top of your social life with colleagues especially in these difficult quarantine times! Highly recommend!"
-          />
+          
         </section>
       </div>
     )
